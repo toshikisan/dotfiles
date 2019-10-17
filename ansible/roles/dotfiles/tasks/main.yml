@@ -1,0 +1,6 @@
+---
+- name: Copy dotfiles to home directory
+  template: src={{ item }}.tpl dest=~/{{ item }} force=yes
+  with_items:
+    - .bashrc
+    - .vimrc
