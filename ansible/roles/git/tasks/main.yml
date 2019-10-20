@@ -1,0 +1,4 @@
+- name: Copy git config .files
+  template: src={{ item }}.tpl dest=~/{{ item }} force=yes
+  with_items:
+    - .gitconfig
