@@ -1,0 +1,14 @@
+---
+- name: install apt packages
+  become: yes
+  apt: 
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - rclone
+- name: mkdir config directory
+  file: path=~/.config/rclone/ state=directory
+- name: copy .config file to home directory
+  template: src={{ item }}.tpl dest=~/.config/rclone/{{ item }}
+  with_items:
+    - rclone.conf

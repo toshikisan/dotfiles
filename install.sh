@@ -13,7 +13,7 @@ function apt () {
 function deploy () {
   hosts='./ansible/inventory/hosts'
   playbook='./ansible/playbook.yml'
-  ansible-playbook -i $hosts $playbook
+  ansible-playbook -i $hosts $playbook --ask-vault-pass
 }
 
 apt
