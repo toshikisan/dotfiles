@@ -7,3 +7,9 @@
     packages:
     - mosh
     - tree
+    - nodejs
+    - npm
+    - libx11-6
+    - libx11-xcb1
+    - libxcomposite1
+    - libxcursor1
