@@ -1,0 +1,5 @@
+---
+- name: clone zdharma/zplugin repo
+  git: repo=git://github.com/zdharma/zplugin.git dest=~/.zplugin/bin
+- name: copy .zshrc to home directory
+  template: src=.zshrc.tpl dest=~/.zshrc force=yes

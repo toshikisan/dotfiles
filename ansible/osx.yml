@@ -1,0 +1,5 @@
+- hosts: localhost
+  vars_files:
+    - vars/user.yml
+  roles:
+    - zsh

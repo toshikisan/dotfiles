@@ -2,7 +2,7 @@
   vars_files:
     - vars/user.yml
   roles:
-    - common
+    - apt
     - zsh
     - vim
     - git
