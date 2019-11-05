@@ -20,6 +20,11 @@
     - alfred
     - caffeine
     - 1password
+    - docker
+    - visual-studio-code
+    - amazon-workspaces
+    - iterm2
+    - google-chrome
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
