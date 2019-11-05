@@ -3,3 +3,4 @@
     - vars/user.yml
   roles:
     - zsh
+    - homebrew
