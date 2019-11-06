@@ -1,0 +1,7 @@
+---
+- name: install npm package
+  become: yes
+  npm:
+    name: google-cloud/functions-emulator
+    global: yes
+
