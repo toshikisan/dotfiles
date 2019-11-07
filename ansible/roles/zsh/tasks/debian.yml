@@ -1,7 +1,4 @@
 ---
-- name: change user shell to zsh
-  become: yes
-  user: name={{ system.user }} shell=/bin/zsh
 - name: clone zdharma/zplugin repo
   git: repo=git://github.com/zdharma/zplugin.git dest=~/.zplugin/bin
 - name: copy .zshrc to home directory
