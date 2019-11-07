@@ -26,7 +26,7 @@ inoremap <C-l> <Right>
 " vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
-Plug 'blueshirts/darcula'
+"Plug 'blueshirts/darcula'
 Plug 'posva/vim-vue'
 call plug#end()
 
@@ -35,7 +35,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " color setting
 syntax enable
-colorscheme darcula
+"colorscheme darcula
 
 " vue
 autocmd FileType vue syntax sync fromstart
