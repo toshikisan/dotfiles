@@ -1,7 +1,8 @@
 ---
 - name: install apt packages
   become: yes
-  apt: zsh
+  apt: 
+    name: zsh
 - name: change user shell to zsh
   become: yes
   user: name={{ system.user }} shell=/bin/zsh
