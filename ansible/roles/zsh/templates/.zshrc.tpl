@@ -9,10 +9,19 @@ compinit
 
 # alias {{{
 # ls 
-alias l='ls -CF'
-alias la='ls -A'
-alias ll='ls -l'
-alias ls='ls -h --color=always'
+case "${OSTYPE}" in
+darwin*)
+  alias ls="ls -G"
+  alias ll="ls -lG"
+  alias la="ls -laG"
+  ;;
+linux*)
+  alias l='ls -CF'
+  alias la='ls -A'
+  alias ll='ls -l'
+  alias ls='ls -h --color=always'
+  ;;
+esac
 # }}}
 
 # '#' is comment on commandline.
