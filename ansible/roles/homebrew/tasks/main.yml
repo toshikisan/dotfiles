@@ -17,7 +17,6 @@
     name: "{{ packages }}"
   vars:
     packages:
-    - alfred
     - caffeine
     - 1password
     - docker
