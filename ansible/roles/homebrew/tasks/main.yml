@@ -26,6 +26,7 @@
     - iterm2
     - google-chrome
     - tripmode
+    - adguard
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
