@@ -1,0 +1,9 @@
+---
+- name: mkdir npm global directory
+  file: path=~/.npm-global/ state=directory
+- name: set prefix 
+  command: npm config set prefix '~/.npm-global'
+- name: npm install -g npm
+  npm:
+    name: npm
+    global: yes

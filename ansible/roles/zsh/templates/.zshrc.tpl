@@ -58,4 +58,7 @@ zplugin load zsh-users/zsh-completions
 # https://draculatheme.com/zsh/
 zplugin load dracula/zsh
 # }}}
+
+# npm global directory
+export PATH=~/.npm/global/bin:$PATH
 {% endraw %}
