@@ -7,3 +7,9 @@
   npm:
     name: npm
     global: yes
+- name: npm install -g
+  npm:
+    name: "{{ item }}"
+    global: yes
+  with_items:
+  - gatsby

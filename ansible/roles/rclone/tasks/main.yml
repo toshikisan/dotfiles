@@ -2,13 +2,16 @@
 - name: install apt packages
   become: yes
   apt: 
-    name: "{{ packages }}"
-  vars:
-    packages:
+    name: 
     - rclone
+    - fuse
 - name: mkdir config directory
   file: path=~/.config/rclone/ state=directory
 - name: copy .config file to home directory
   template: src={{ item }}.tpl dest=~/.config/rclone/{{ item }}
   with_items:
-    - rclone.conf
+  - rclone.conf
+- name: mkdir gdrive directory
+  file: path=~/gdrive/ state=directory
+- name: rclone mount gdrive:/ ~/gdrive
+  shell: rclone mount gdrive:/ ~/gdrive &
