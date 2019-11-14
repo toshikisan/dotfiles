@@ -25,6 +25,7 @@
     - amazon-workspaces
     - iterm2
     - google-chrome
+    - tripmode
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
