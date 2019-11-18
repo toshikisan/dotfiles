@@ -8,4 +8,4 @@
     - git
     - rclone
     # - puppeteer
-    # - npm
+    - npm
