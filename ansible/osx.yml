@@ -4,3 +4,6 @@
   roles:
     - zsh
     - homebrew
+    - vim
+    - rclone
+    - osx_defaults

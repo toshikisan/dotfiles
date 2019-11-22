@@ -1,5 +1,11 @@
-[gdrive]
+[home]
 type = drive
 scope = drive
-token = {{ rclone.token }}
-root_folder_id = {{ rclone.root_folder_id }}
+token = {{ rclone.home.token }}
+root_folder_id = {{ rclone.home.root_folder_id }}
+
+[work]
+type = drive
+scope = drive
+token = {{ rclone.work.token }}
+root_folder_id = {{ rclone.work.root_folder_id }}

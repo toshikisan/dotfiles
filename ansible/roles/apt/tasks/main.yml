@@ -9,3 +9,5 @@
     - tree
     - vim
     - screen
+    - rclone
+    - fuse

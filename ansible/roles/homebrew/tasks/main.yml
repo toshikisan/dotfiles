@@ -10,6 +10,7 @@
     packages:
     - nkf
     - mas
+    - rclone
 - name: homebrew cask install
   environment:
     HOMEBREW_CASK_OPTS: --appdir=/Applications
@@ -26,6 +27,7 @@
     - google-chrome
     - tripmode
     - adguard
+    - osxfuse
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:

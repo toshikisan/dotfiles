@@ -1,10 +1,4 @@
 ---
-- name: install apt packages
-  become: yes
-  apt: 
-    name: 
-    - rclone
-    - fuse
 - name: mkdir config directory
   file: path=~/.config/rclone/ state=directory
 - name: copy .config file to home directory
@@ -12,6 +6,10 @@
   with_items:
   - rclone.conf
 - name: mkdir gdrive directory
-  file: path=~/gdrive/ state=directory
-- name: rclone mount gdrive:/ ~/gdrive
-  shell: rclone mount gdrive:/ ~/gdrive &
+  file: path=~/home/ state=directory
+- name: rclone mount home:/ ~/home
+  shell: rclone mount home:/ ~/home &
+- name: mkdir gdrive directory
+  file: path=~/work/ state=directory
+- name: rclone mount work:/ ~/work
+  shell: rclone mount work:/ ~/work &

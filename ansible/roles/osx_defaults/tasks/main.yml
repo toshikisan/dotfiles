@@ -1,0 +1,8 @@
+---
+- name: Automatically hide the Dock
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide
+    type: bool
+    value: true
+    state: present
