@@ -10,6 +10,7 @@
     packages:
     - nkf
     - mas
+    - tnftp
     - rclone
 - name: homebrew cask install
   environment:
