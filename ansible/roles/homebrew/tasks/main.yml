@@ -12,6 +12,7 @@
     - mas
     - tnftp
     - rclone
+    - node
 - name: homebrew cask install
   environment:
     HOMEBREW_CASK_OPTS: --appdir=/Applications

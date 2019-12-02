@@ -1,10 +1,6 @@
 ---
 - name: mkdir npm global directory
   file: path=~/.npm/global/ state=directory
-- name: sudo apt install npm
-  become: yes
-  apt:
-    name: npm
 - name: set prefix 
   command: npm config set prefix '~/.npm/global'
 - name: npm install -g npm
