@@ -34,6 +34,7 @@
     - adguard
     - osxfuse
     - java
+    - adobe-creative-cloud
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
