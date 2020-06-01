@@ -2,7 +2,7 @@
   vars_files:
     - vars/user.yml
   roles:
-    - zsh
+    # - zsh
     - homebrew
     - vim
     - rclone

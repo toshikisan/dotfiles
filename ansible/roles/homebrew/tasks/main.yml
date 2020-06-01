@@ -35,10 +35,13 @@
     - osxfuse
     - java
     - adobe-creative-cloud
+    - skype
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
   - { id: '417375580', name: 'BetterSnapTool' }
+  - { id: '539883307', name: 'LINE' }
+  - { id: '803453959', name: 'Slack' }
   register: result
   changed_when: result.rc == 1
   failed_when: result.rc not in [0, 1]
