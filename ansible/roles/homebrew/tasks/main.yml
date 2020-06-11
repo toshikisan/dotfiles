@@ -36,6 +36,7 @@
     - java
     - adobe-creative-cloud
     - skype
+    - sketch
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
