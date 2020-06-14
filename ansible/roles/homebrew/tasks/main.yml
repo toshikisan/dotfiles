@@ -37,6 +37,7 @@
     - adobe-creative-cloud
     - skype
     - sketch
+    - notion
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
