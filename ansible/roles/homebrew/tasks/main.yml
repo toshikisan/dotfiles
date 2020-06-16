@@ -38,6 +38,7 @@
     - skype
     - sketch
     - notion
+    - google-japanese-ime
 - name: mas install
   script: "../scripts/mas.sh {{ item.id }}"
   with_items:
