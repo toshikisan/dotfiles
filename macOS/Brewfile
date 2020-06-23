@@ -1,0 +1,23 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "mas"
+brew "nkf"
+cask "adguard"
+cask "adobe-creative-cloud"
+cask "caffeine"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "notion"
+cask "sketch"
+cask "skype"
+cask "tripmode"
+cask "visual-studio-code"
+mas "BetterSnapTool", id: 417375580
+mas "GoodNotes", id: 1444383602
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Messenger", id: 1480068668
+mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
