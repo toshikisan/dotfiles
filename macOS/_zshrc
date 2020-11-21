@@ -1,6 +1,6 @@
-source $HOME/.zplugin/bin/zplugin.zsh
-autoload -Uz _zplugin
-(( ${+_comps} )) && _comps[zplugin]=_zplugin
+source $HOME/.zplugin/bin/zplugin/zinit.zsh
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
 
 # complication
 autoload -U compinit
@@ -42,20 +42,20 @@ setopt share_history
 # zplugin: {{{
 # Fish-like fast/unobtrusive autosuggestions for zsh.
 # It suggests commands as you type based on history and completions when you type "->".
-zplugin light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-autosuggestions
 
 # Syntax-highlighting for Zsh
 # Green is a command. Red is not exsisting command or path. Cyan is a path.
-zplugin light zdharma/fast-syntax-highlighting
+zinit light zdharma/fast-syntax-highlighting
 FAST_HIGHLIGHT_STYLES[path]='fg=cyan'
 
 # Additional completion definitions for Zsh.
 # when you type apt <tab>, you can select sub command.
-zplugin load zsh-users/zsh-completions
+zinit load zsh-users/zsh-completions
 
 # Dracula is a dark theme for zsh.
 # https://draculatheme.com/zsh/
-zplugin load dracula/zsh
+zinit load dracula/zsh
 # }}}
 
 # npm global directory

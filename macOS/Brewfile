@@ -6,7 +6,6 @@ brew "nkf"
 cask "caffeine"
 cask "clipy"
 cask "google-chrome"
-cask "google-japanese-ime"
 cask "iterm2"
 cask "microsoft-teams"
 cask "notion"
@@ -19,14 +18,10 @@ mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Adobe Lightroom", id: 1451544217
 mas "BetterSnapTool", id: 417375580
-mas "GoodNotes", id: 1444383602
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
-# mas "Microsoft Outlook", id: 985367838
-mas "MindNode", id: 1289197285
 mas "Slack", id: 803453959
-mas "Xcode", id: 497799835
