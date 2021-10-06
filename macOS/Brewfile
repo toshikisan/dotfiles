@@ -9,16 +9,12 @@ cask "clipy"
 cask "google-chrome"
 cask "iterm2"
 cask "krisp"
-cask "tripmode"
 cask "visual-studio-code"
 cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Adobe Lightroom", id: 1451544217
 mas "BetterSnapTool", id: 417375580
-mas "LINE", id: 539883307
-mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
-mas "Slack", id: 803453959
