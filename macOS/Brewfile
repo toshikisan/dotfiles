@@ -3,23 +3,19 @@ tap "homebrew/cask"
 tap "homebrew/core"
 brew "mas"
 brew "nkf"
-brew "unar"
+brew "node"
 cask "caffeine"
 cask "clipy"
 cask "google-chrome"
 cask "iterm2"
-cask "microsoft-teams"
-cask "notion"
-cask "sketch"
-cask "skype"
+cask "krisp"
 cask "tripmode"
 cask "visual-studio-code"
-cask "zoomus"
+cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Adobe Lightroom", id: 1451544217
 mas "BetterSnapTool", id: 417375580
-mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
