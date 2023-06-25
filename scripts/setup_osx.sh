@@ -24,7 +24,7 @@ fi
 
 # git clone dotfiles
 DOTPATH=$HOME/dotfiles
-GIT_REPO=https://github.com/ctoshiki/dotfiles.git
+GIT_REPO=https://github.com/toshikisan/dotfiles.git
 
 if [ ! -d "$DOTPATH" ]; then
   git clone "$GIT_REPO" "$DOTPATH"
