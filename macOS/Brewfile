@@ -1,20 +1,35 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "openssl@1.1"
 brew "mas"
 brew "nkf"
-brew "node"
-cask "caffeine"
+brew "openssl@3"
+brew "pyenv"
+brew "pyenv-virtualenv"
 cask "clipy"
 cask "google-chrome"
-cask "iterm2"
-cask "krisp"
+cask "google-cloud-sdk"
+cask "keepingyouawake"
 cask "visual-studio-code"
+cask "warp"
 cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
-mas "Adobe Lightroom", id: 1451544217
 mas "BetterSnapTool", id: 417375580
+mas "Craft", id: 1487937127
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
+vscode "formulahendry.vscode-mysql"
+vscode "ms-azuretools.vscode-docker"
+vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
